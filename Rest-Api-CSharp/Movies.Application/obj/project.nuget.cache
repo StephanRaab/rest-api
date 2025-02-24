@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "52KkVyIbLV4=",
+  "dgSpecHash": "I6RCiiRgWRc=",
   "success": true,
   "projectFilePath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/stephanraab/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
