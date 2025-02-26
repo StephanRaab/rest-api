@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Movies.Application.Models;
 using Movies.Application.Repositories;
 using Movies.Contracts.Requests;
@@ -30,7 +31,7 @@ namespace Movies.Api.Controllers
 
             await _movieRepository.CreateAsync(movie);
 
-            return Ok(movie);
+            return Created($"/api/movies/{movie.Id}", movie);
         }
     }
 }
