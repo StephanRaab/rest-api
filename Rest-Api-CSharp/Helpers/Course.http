@@ -1,0 +1,80 @@
+﻿# REST API Course
+
+###
+# group: Identity
+# @name Token Generator
+POST https://localhost:5294/token
+Content-Type: application/json
+
+{
+  "userid": "d8566de3-b1a6-4a9b-b842-8e3887a82e41",
+  "email": "nick@nickchapsas.com",
+  "customClaims": {
+    "admin": true,
+    "trusted_member": true
+  }
+}
+
+###
+# group: Movies
+# @name Create movie
+POST https://localhost:5001/api/movies
+Content-Type: application/json
+
+{
+  "Title": "Nick the Greek",
+  "YearOfRelease": 2023,
+  "Genres": [
+    "Comedy"
+  ]
+}
+
+###
+# group: Movies
+# @name Get movie
+GET https://localhost:5001/api/movies/
+
+###
+# group: Movies
+# @name Get all movies
+GET https://localhost:5001/api/movies
+
+###
+# group: Movies
+# @name Update movie
+PUT https://localhost:5001/api/movies/{id}
+Content-Type: application/json
+
+{
+  "Title": "Nick the Greek",
+  "YearOfRelease": 2023,
+  "Genres": [
+    "Comedy",
+    "Action"
+  ]
+}
+
+###
+# group: Movies
+# @name Delete movie
+DELETE https://localhost:5001/api/movies/{id}
+
+###
+# group: Ratings
+# @name Rate movie
+PUT https://localhost:5001/api/movies/{id}/ratings
+Content-Type: application/json
+
+{
+  "rating": 5
+}
+
+###
+# group: Ratings
+# @name Get my ratings
+GET https://localhost:5001/api/ratings/me
+
+###
+# group: Ratings
+# @name Delete rating
+DELETE https://localhost:5001/api/movies/{id}/ratings
