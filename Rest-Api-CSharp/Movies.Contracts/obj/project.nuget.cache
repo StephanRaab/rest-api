@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/amVAAnvyY=",
+  "dgSpecHash": "Bv7re18Hhpo=",
   "success": true,
-  "projectFilePath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

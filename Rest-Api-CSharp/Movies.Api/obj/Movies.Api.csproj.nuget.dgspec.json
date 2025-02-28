@@ -1,37 +1,44 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/Movies.Api.csproj": {}
+    "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\Movies.Api.csproj": {}
   },
   "projects": {
-    "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/Movies.Api.csproj": {
+    "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\Movies.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/Movies.Api.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\Movies.Api.csproj",
         "projectName": "Movies.Api",
-        "projectPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/Movies.Api.csproj",
-        "packagesPath": "/Users/stephanraab/.nuget/packages/",
-        "outputPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/obj/",
+        "projectPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\Movies.Api.csproj",
+        "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/stephanraab/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\thest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj": {
-                "projectPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj"
+              "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\Movies.Application.csproj": {
+                "projectPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\Movies.Application.csproj"
               },
-              "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj": {
-                "projectPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj"
+              "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj": {
+                "projectPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj"
               }
             }
           }
@@ -45,8 +52,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -76,27 +82,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj": {
+    "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\Movies.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\Movies.Application.csproj",
         "projectName": "Movies.Application",
-        "projectPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/Movies.Application.csproj",
-        "packagesPath": "/Users/stephanraab/.nuget/packages/",
-        "outputPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Application/obj/",
+        "projectPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\Movies.Application.csproj",
+        "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/stephanraab/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\thest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,8 +127,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -123,7 +135,7 @@
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[10.0.0-preview.1.25080.5, )"
             }
           },
           "imports": [
@@ -142,27 +154,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj": {
+    "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj",
         "projectName": "Movies.Contracts",
-        "projectPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/Movies.Contracts.csproj",
-        "packagesPath": "/Users/stephanraab/.nuget/packages/",
-        "outputPath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Contracts/obj/",
+        "projectPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\Movies.Contracts.csproj",
+        "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/stephanraab/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\thest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,8 +199,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -202,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
