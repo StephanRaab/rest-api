@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oy4gr/md/JY=",
+  "dgSpecHash": "1h70Cpzi1HA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thest\\projects\\rest-api\\Rest-Api-CSharp\\Movies.Api\\Movies.Api.csproj",
+  "projectFilePath": "/Users/stephanraab/Projects/rest-api/Rest-Api-CSharp/Movies.Api/Movies.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thest\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
-    "C:\\Users\\thest\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.1.25080.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.1.25080.5.nupkg.sha512",
-    "C:\\Users\\thest\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/stephanraab/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/stephanraab/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-preview.1.25080.5/microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.1.25080.5.nupkg.sha512",
+    "/Users/stephanraab/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }
